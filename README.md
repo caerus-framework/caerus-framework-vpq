@@ -228,11 +228,13 @@ valkey server and enforces `WithMaxDepth` / `WithMaxInFlight` when non-zero so
 `WithWorkers(n)` runs `n` concurrent consumers (claim is atomic; make handlers
 safe for concurrent use). Before `Init` or after `Shutdown` Health is unhealthy.
 
-`cf.MetricsProvider` samples (lazy pickup when uninitialized):
+`cf.MetricsProvider` samples (lazy pickup when uninitialized). All samples carry
+`queue` and `component` (= Name()) labels; counters are always emitted while
+initialized (zero until first fire):
 
 | Metric | Meaning |
 | --- | --- |
-| `vpq_info` | queue present (`queue` label) |
+| `vpq_info` | queue present (`queue`, `component` labels) |
 | `vpq_depth` | distinct ids in the zset |
 | `vpq_in_flight` | popped but unacked |
 | `vpq_recoveries_total` | cumulative recoveries |

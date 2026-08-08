@@ -869,7 +869,7 @@ func (q *PriorityQueue) Metrics() []cf_observability.Metric {
 	q.mu.RLock()
 	queue := q.cfg.QueueName
 	q.mu.RUnlock()
-	labels := map[string]string{"queue": queue}
+	labels := map[string]string{"queue": queue, "component": q.Name()}
 	ms := []cf_observability.Metric{{
 		Name:   "vpq_info",
 		Help:   "Valkey priority queue state.",
