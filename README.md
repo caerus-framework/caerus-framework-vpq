@@ -232,10 +232,10 @@ safe for concurrent use). Before `Init` or after `Shutdown` Health is unhealthy.
 
 | Metric | Meaning |
 | --- | --- |
-| `caerus_vpq_info` | queue present (`queue` label) |
-| `caerus_vpq_depth` | distinct ids in the zset |
-| `caerus_vpq_in_flight` | popped but unacked |
-| `caerus_vpq_recoveries_total` | cumulative recoveries |
+| `vpq_info` | queue present (`queue` label) |
+| `vpq_depth` | distinct ids in the zset |
+| `vpq_in_flight` | popped but unacked |
+| `vpq_recoveries_total` | cumulative recoveries |
 
 ## Tests
 

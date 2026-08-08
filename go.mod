@@ -6,7 +6,7 @@ require (
 	github.com/caerus-framework/caerus-framework v0.0.5
 	github.com/caerus-framework/caerus-framework-configuration v0.0.2
 	github.com/caerus-framework/caerus-framework-logs v0.0.2
-	github.com/caerus-framework/caerus-framework-observability v0.1.0
+	github.com/caerus-framework/caerus-framework-observability v0.0.2
 	github.com/caerus-framework/caerus-framework-valkey v0.1.0
 	github.com/valkey-io/valkey-go v1.0.76
 )
