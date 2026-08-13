@@ -6,6 +6,8 @@ github.com/caerus-framework/caerus-framework-configuration v0.0.7 h1:DMZV2ctC5RL
 github.com/caerus-framework/caerus-framework-configuration v0.0.7/go.mod h1:QXjMuNdQEN9TgyxthFnFTWzYTrxh0xGVzCIs/TxgnN0=
 github.com/caerus-framework/caerus-framework-logs v0.0.5 h1:9UI6sUnFifYt9vzXxxFO+WlWHbX5jHX4u3r0vhHlpHk=
 github.com/caerus-framework/caerus-framework-logs v0.0.5/go.mod h1:wNHVoIuNcU6ELTRB8wYS+3S20jPWNTeHEyOipo/uV+k=
+github.com/caerus-framework/caerus-framework-logs v0.0.6 h1:ceiRisb9VQ8gWH3+H4PNlRi4hUtZKP7KRegNcZ/frAs=
+github.com/caerus-framework/caerus-framework-logs v0.0.6/go.mod h1:wNHVoIuNcU6ELTRB8wYS+3S20jPWNTeHEyOipo/uV+k=
 github.com/caerus-framework/caerus-framework-observability v0.0.4 h1:a9IsYBMnidHwINR89N5eRijKs7En3tqMY4ySgsuV4Ro=
 github.com/caerus-framework/caerus-framework-observability v0.0.4/go.mod h1:xHK4HvrGGaI6g2+Usdln4dGfJ5pC2Qn+iIl2antmMWc=
 github.com/caerus-framework/caerus-framework-valkey v0.0.3 h1:E3eiNTvSh2kvBpd4W170cqcFzgqWjNdvIPyRYKWZxU4=
