@@ -1,5 +1,7 @@
 # caerus-framework-vpq
 
+ARCHIVED. DO NOT USE
+
 [![CI](https://github.com/caerus-framework/caerus-framework-vpq/actions/workflows/ci.yml/badge.svg)](https://github.com/caerus-framework/caerus-framework-vpq/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/caerus-framework/caerus-framework-vpq/graph/badge.svg)](https://codecov.io/gh/caerus-framework/caerus-framework-vpq)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
